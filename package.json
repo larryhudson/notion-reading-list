@@ -1,0 +1,17 @@
+{
+  "name": "notion-reading-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^1.0.4",
+    "lodash.merge": "^4.6.2",
+    "node-fetch": "^2.6.7"
+  }
+}
