@@ -6,7 +6,7 @@ const fetch = require("node-fetch");
 exports.handler = async (event, context, callback) => {
   const pageId = event.queryStringParameters.id;
 
-  const integrationKey = event.headers.get("Authorization").split(" ")[1];
+  const integrationKey = event.headers.Authorization.split(" ")[1];
 
   const notionClient = new Client({
     auth: integrationKey,
