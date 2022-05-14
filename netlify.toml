@@ -21,3 +21,8 @@
   from = "/page"
   to = "/.netlify/functions/get-page"
   status = 200
+
+[[redirects]]
+  from = "/add-to-page"
+  to = "/.netlify/functions/add-to-page"
+  status = 200
