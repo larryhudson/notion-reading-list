@@ -42,5 +42,7 @@ export default async (request, context) => {
     };
   });
 
-  return context.json(simpleResults);
+  return context.json({
+    pages: simpleResults,
+  });
 };
